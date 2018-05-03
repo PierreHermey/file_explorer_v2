@@ -1,0 +1,79 @@
+*{
+    font-family: 'Signika', sans-serif;
+    cursor: default;
+}
+
+@font-face {
+    font-family: "star wars";
+    src: url("../fonts/STJEDISE.TTF") format('opentype');
+    }
+
+body{
+    background: #3E3F48 url('../img/browser-bg.jpg') no-repeat;
+    background-position-y: -50px;
+    background-size: cover;
+}
+
+header{
+    height: 100px;
+}
+
+.icons-f{
+    width: 40px;
+    height: 40px;
+}
+
+.name a{
+    text-decoration: solid;
+    color: black;
+    font-size: 18px;
+}
+
+.name a:hover{
+    text-decoration : none;
+    color: rgb(53, 161, 220);
+    cursor: pointer;
+}
+
+th{
+    background-color: rgba(2, 0, 0, 0.76);
+    color: white;
+    text-align: center;
+    font-family: 'Poiret One', cursive;  
+}
+
+th.name{
+    text-align: left;
+    padding-left: 55px;
+}
+
+.date, .type, .size, .user {
+    text-align: center;
+}
+
+.table{
+    background-color: rgba(254, 249, 249, 0.445);
+}
+
+legend{
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    border: dashed 2px white; 
+    padding-left: 20px;
+    padding-top: 10px;
+    box-shadow: black 2px 2px 10px inset;
+}
+
+footer img {
+    display: flex; 
+    justify-content: center;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: "star wars";
+    margin-top: 70px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
