@@ -8,6 +8,18 @@
     ]);
     $twig->addExtension(new Twig_Extension_Debug());
 
+    /**
+    *
+    * Display datas in an array
+    *
+    * @param    directories $directories The path to get datas
+    * @param    mydata $mydata The array or the datas
+    * 
+    * @author   Pierre Hermey
+    * @return   datas
+    *
+    */
+
     function displayData($folder) {
         $mydata = [];
         $directories = array_diff(scandir($folder), ['.', '..']);

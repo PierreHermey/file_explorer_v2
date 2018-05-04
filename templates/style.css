@@ -77,3 +77,8 @@ h1 {
     color: white;
     text-shadow: 2px 2px 2px black;
 }
+
+legend > span {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+}
